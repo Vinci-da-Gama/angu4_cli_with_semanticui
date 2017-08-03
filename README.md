@@ -2,8 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
 
+##You can find all possible blueprints in the table below:
+
+Scaffold  | Usage
+---       | ---
+[Component](https://github.com/angular/angular-cli/wiki/generate-component) | `ng g component my-new-component`
+[Directive](https://github.com/angular/angular-cli/wiki/generate-directive) | `ng g directive my-new-directive`
+[Pipe](https://github.com/angular/angular-cli/wiki/generate-pipe)           | `ng g pipe my-new-pipe`
+[Service](https://github.com/angular/angular-cli/wiki/generate-service)     | `ng g service my-new-service`
+[Class](https://github.com/angular/angular-cli/wiki/generate-class)         | `ng g class my-new-class`
+[Guard](https://github.com/angular/angular-cli/wiki/generate-guard)         | `ng g guard my-new-guard`
+[Interface](https://github.com/angular/angular-cli/wiki/generate-interface) | `ng g interface my-new-interface`
+[Enum](https://github.com/angular/angular-cli/wiki/generate-enum)           | `ng g enum my-new-enum`
+[Module](https://github.com/angular/angular-cli/wiki/generate-module)       | `ng g module my-module`
+
 ## After you init pj
-goes into src/app folder, add app-routing.module.ts, and cp and paste content, then add operators.ts and cp and paste content, then adjust app.module.ts, last one is adjust tsconfig.json
+1st: npm init -y to create package.json, then modified it according to __package-sample.json. goes into src/app folder, add app-routing.module.ts, and cp and paste content, then add operators.ts and cp and paste content, then adjust app.module.ts, last one is adjust tsconfig.json
 Install Bootstrap or ng2-semantic-ui(prefer this, no jquery required.), you can include css and js in angular-cli.json
 ### bootstrap in angular-cli.json
 ```javascript
