@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /semanticui
+/sementicui
 
 # dependencies
 /node_modules
