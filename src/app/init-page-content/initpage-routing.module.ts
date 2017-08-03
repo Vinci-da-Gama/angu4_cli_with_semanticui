@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { InitPageContentComponent } from './init-page-content.component';
 
+const initPageRoute: Routes = [
+    { path: '', component: InitPageContentComponent }
+];
+
 @NgModule({
     imports: [
-        RouterModule.forChild([
-            {
-                path: '',
-                component: InitPageContentComponent
-            }
-        ])
+        RouterModule.forChild(initPageRoute)
     ],
     exports: [RouterModule]
 })
