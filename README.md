@@ -1,4 +1,4 @@
-# Angular4WithCliS1
+# Angular4 With SemanticUi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
